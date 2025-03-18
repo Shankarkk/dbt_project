@@ -13,7 +13,7 @@ with source_data as (
 
     select 5 as id
     union all
-    select l05 as id
+    select 105 as id
 
 )
 
