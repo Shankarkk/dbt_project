@@ -1,0 +1,11 @@
+version: 2
+sources:
+   - name: datafeed_shared_schema
+     database: "{{('skk')}}"
+     schema: skk_data
+
+     tables:
+     - name: SOURCE_CUSTOMERS
+     - name: SOURCE_PAYMENTS
+     - name: SOURCE_ORDERS
+     
